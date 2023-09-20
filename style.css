@@ -1,0 +1,263 @@
+.top-banner {
+    background-image:url(images/donation12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    overflow: hidden; /* Prevent content overflow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.top-banner:after {
+    content: "";
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.97), transparent);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 87%;
+    z-index: 1; /* Ensure the overlay is behind the content */
+
+  }
+.half-width {
+    text-align: center;
+    width: 50%;
+    padding: 0 5%;
+    position: relative;
+    z-index: 2; /* Place content above the overlay */
+    /* Ensure the content remains centered even on smaller screens */
+    max-width: 800px; /* Adjust this value as needed */
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(248, 44, 44), rgb(205, 5, 5));
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 25px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(252, 252, 251);
+    margin: 0px;
+}
+
+h1 {
+    font-size: 100px;
+
+}
+p {
+    font-size: 30px;
+
+}
+
+.amount-100,.amount-200, .amount-500, .amount-1000, .amount-5000 {
+    text-decoration: none;
+    padding: 50px 90px;
+    font-weight: 700;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    box-shadow: 10px 10px 40px rgb(253, 163, 151);
+    border-left: 7px solid tomato;
+    text-align:center;
+    font-weight: 800;
+    color: rgb(121, 121, 121)
+}
+h2{
+    font-size: 65px;
+    text-align: center;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.grey-color{
+    color:grey;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.amount-conatiner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.other-amount{
+    text-align: center;
+    margin-top: 20px;
+}
+.grey-line {
+    border: 1px solid grey;
+    width: 100%; /* Adjust the width of the line as needed */
+    margin: 20% auto; /* Center the line horizontally */
+}
+.donate-plan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+.food-image img{    
+    display: block; /* Ensure it's displayed as a block element */
+    margin-top:20px; /* Center the icon and add some space below it */
+    max-width: 100%; /* Adjust this value as needed */
+    height: auto;
+
+
+}
+.food-container{
+    background-color: rgb(223, 232, 250);
+    padding: 20px; /* Add some padding for spacing */
+    width: 500px; /* Adjust the width as needed */
+    margin-right: 40px; /* Center the container horizontally */
+    float: left; /* Float the container to the left */
+    clear: left; /* Clear any previous floats to prevent overlapping */
+    /*height: 500px; /* Adjust the height as needed */
+}
+h3{
+    font-size: 40px;
+    text-align: left;
+}
+.food-text{
+    font-size: 20px;
+    text-align: left;
+    color:grey;
+    font-weight: 700;
+}
+.shelter-container{
+    background-color: rgb(251, 229, 228);
+    padding: 20px; /* Add some padding for spacing */
+    width: 500px; /* Adjust the width as needed */
+    margin-right: 40px; /* Center the container horizontally */
+    float: left; /* Float the container to the left */
+    clear: left; /* Clear any previous floats to prevent overlapping */
+    /*height: 500px; /* Adjust the height as needed */
+}
+.education-container{
+    background-color: rgb(222, 250, 233);
+    padding: 20px; /* Add some padding for spacing */
+    width: 500px; /* Adjust the width as needed */
+    margin-right: 40px; /* Center the container horizontally */
+    float: left; /* Float the container to the left */
+    clear: left; /* Clear any previous floats to prevent overlapping */
+    /*height: 500px; /* Adjust the height as needed */
+}
+.contribution-container{
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 27%;
+    margin-right:12%;
+
+}
+.half-page{
+    width: 50%;
+    padding-left: 15%;
+    padding-right: 20%;
+}
+.left-text{
+    font-size: 65px;
+    text-align: left;
+
+}
+.container{
+    background-image: url(images/donation14.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+    margin-left:12%;
+}
+.half-page-right{
+    width: 50%;
+    padding-left: 40%;
+
+}
+.right-text{
+    font-size: 65px;
+    text-align:left;
+
+}
+.email-updates-banner {
+    background-color: #f9edc8; /* Choose your desired background color */
+    padding: 50px 0; /* Add padding as needed */
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:10%;
+}
+
+.email-updates-banner .half-width {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.email-updates-banner h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.email-updates-banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.email-updates-banner form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-updates-banner input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #fa2626;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.email-updates-banner button[type="submit"] {
+    background-color: #ff3333; /* Choose your desired button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.email-updates-banner button[type="submit"]:hover {
+    background-color: #ff4422; /* Choose a slightly different color for hover effect */
+}
+.footer-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: rgb(17, 17, 36);
+    margin-top:5%;
+    
+}
+.red{
+   color:red;
+}
